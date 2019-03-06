@@ -10,6 +10,13 @@ public class HomeController {
 	@RequestMapping("/")
 	public ModelAndView index() {
 		ModelAndView mav = new ModelAndView();
+		mav.setViewName("index");
+		return mav;
+	}
+	
+	@RequestMapping("/showForm")
+	public ModelAndView showForm() {
+		ModelAndView mav = new ModelAndView();
 		mav.setViewName("show-form");
 		return mav;
 	}
