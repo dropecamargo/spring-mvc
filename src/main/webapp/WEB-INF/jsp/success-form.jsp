@@ -7,6 +7,9 @@
 <title>Demo MVC Spring Framework</title>
 </head>
 <body>
+	<a href="/">Index</a>
+	<br><br>
+	
 	<h1>Name</h1>
 	<h2>${param.name}</h2>
 </body>
